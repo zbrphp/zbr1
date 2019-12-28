@@ -5,7 +5,7 @@
 **> 数据类型（int,,,,,,等）不能随便改，一旦修改，原数据将被破坏，若要修改先备份数据库；**
 
 ## 建表常用数据类型: ##
-
+'''html
 	例：
 	自增id 	int unsigned
 	登录名  	varchar(255)
@@ -20,7 +20,7 @@
 	状态status  tinyint undigned
 	时间		int unsigned	
 
-
+'''
 **查看建表语句:**
 	
 	show creat table `表名`; 
